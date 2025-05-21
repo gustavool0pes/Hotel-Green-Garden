@@ -4,185 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Green Garden</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 24px;
-    }
-
-    
-    .accommodation-text, .tittle, p{
-      text-align: center;
-      text-align: justify;
-    }
-
-    .menu-icon {
-      font-size: 24px;
-      cursor: pointer;
-    }
-
-    .profile-icon img{
-        max-width: 20px;
-    }
-
-    .accommodation {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 3rem 1rem;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .accommodation img {
-      width: 80%;
-      max-width: 600px;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-    }
-
-    .accommodation h2 {
-      margin: 0.5rem 0;
-      font-size: 20px;
-      text-align: center;
-    }
-
-.btn a {
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
-  padding: 0.8rem 1rem;
-  font-size: 0.9rem;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-
-
-.greengarden-text {
-  background-color: #555;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-footer {
-  background-color: #555;
-  color: #fff;
-  padding: 2rem;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 25px;
-}
-
-.footer-row {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.footer-block {
-  flex: 1;
-  min-width: 150px;
-}
-
-.footer-block h3 {
-  margin-top: 0;
-}
-
-.img-footer {
-  display: flex;
-  gap: 15px;
-}
-
-.img-footer img {
-  max-width: 30px;
-  cursor: pointer;
-}
-
-.map iframe {
-  max-width: 950px;
-  height: 300px;
-  border: 0;
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-row {
-    flex-direction: column;
-  }
-}
-
-
-
-    @media (min-width: 768px) {
-      .accommodation {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 2rem;
-        padding: 3rem 5rem;
-      }
-
-      .accommodation img {
-        width: 50%;
-      }
-
-      .accommodation-text {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .accommodation h2 {
-        text-align: left;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
 
-  <header>
-    <div class="menu-icon">☰</div>
-    <h1>Green Garden</h1>
-    <div class="profile-icon"><img src="assets/img/user.png" alt=""></div>
-  </header>
+  <!-- header -->
+<header>
+  <img src="assets/img/user.png" style="max-width: 30px; cursor: pointer;" alt="">
+  <h3 style="color: aliceblue; text-align: center; display: flex; margin: 0 auto;">Green Garden</h3>
+  <!-- MENU OVERLAY -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- MENU ITEMS -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1 center">
+          <a href="#home" class="center">Home</a>
+        </li>
+        <li id="nav-2" class="slide-out-2 center">
+          <a href="#about" class="center">Sobre</a>
+        </li>
+        <li id="nav-3" class="slide-out-3 center">
+          <a href="#skills" class="center">Suítes</a>
+        </li>
+        <li id="nav-4" class="slide-out-4 center">
+          <a href="#projects" class="center">Restaurante</a>
+        </li>
+        <li id="nav-5" class="slide-out-5 center">
+          <a href="#contact" class="center">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- HAMBURGER MENU -->
+  <div class="hamburger-menu" id="hamburger-menu">
+    <div class="menu-bar1"></div>
+    <div class="menu-bar2"></div>
+    <div class="menu-bar3"></div>
+  </div>
+</header>
 
   <section class="accommodation">
     <div class="accommodation-text">
@@ -230,16 +89,12 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
     <div class="accommodation-text">
       <h2 style="text-align: center;">Suíte Master</h2>
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única. Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>
-      <div class="btn">
+      <div class="btn" >
         <a href="">Ver mais</a>
       </div>
     </div>
   </section>
-
-
-
-
-
+</body>
 <footer>
   <div class="logo">
     <h3 style="text-align: center;">Hotel Green Garden</h3>
@@ -287,14 +142,11 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
     
     <div class="map">
     <h3 style="text-align: center;">Localização</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.7671365976912!2d-43.18003615751935!3d-22.91084242647369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6417be7569%3A0xf3491947c19cda8e!2sCatedral%20Metropolitana%20do%20RJ!5e0!3m2!1spt-BR!2sbr!4v1747694102559!5m2!1spt-BR!2sbr"
+    <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.4429871892894!2d-50.88179489999999!3d-29.386594499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519324ea95794fb%3A0xceb8e136afb5bc30!2sAv.%20das%20Hort%C3%AAnsias%2C%20680%20-%20Planalto%2C%20Gramado%20-%20RS%2C%2095670-000!5e0!3m2!1spt-BR!2sbr!4v1747771688318!5m2!1spt-BR!2sbr"
       width="100%" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   </div>
 </footer>
 
-
-
-
-</body>
+<script src="assets/js/index.js"></script>
 </html>
