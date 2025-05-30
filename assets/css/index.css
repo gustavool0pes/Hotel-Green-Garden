@@ -76,23 +76,23 @@ nav ul li {
 }
 
 nav li:nth-of-type(1) {
-  background-color: #626059;
+  background-color: #212529;
 }
 
 nav li:nth-of-type(2) {
-  background-color: #9d5543;
+  background-color: #343a40;
 }
 
 nav li:nth-of-type(3) {
-  background-color: #3d405b;
+  background-color: #495057;
 }
 
 nav li:nth-of-type(4) {
-  background-color: #5a7d6c;
+  background-color: #6c757d;
 }
 
 nav li:nth-of-type(5) {
-  background-color: #917a56;
+  background-color: #adb5bd;
 }
 
 nav li a {
