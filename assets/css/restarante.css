@@ -27,7 +27,7 @@ p {
 }
 
 .hero-content {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -43,6 +43,9 @@ p {
   flex: 1;
   height: 250px;
   background-color: #999;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 /* Subtext */
