@@ -1,0 +1,137 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  height: 250px;
+  background-color: #999;
+}
+
+/* Subtext */
+.subtext {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Team Section */
+.team {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 280px;
+}
+
+.photo {
+  height: 200px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-light {
+  background-color: #e0e0e0;
+}
+
+.photo-dark {
+  background-color: #444;
+}
+
+/* Awards Section */
+.awards {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.award-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.icon p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #d1d1d1;
+  padding: 40px 20px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.contact h4 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.social {
+  font-size: 0.8rem;
+  color: #555;
+}
