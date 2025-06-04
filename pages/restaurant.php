@@ -12,7 +12,6 @@
         <div class="hero-text">
           <h1>Keeping it real</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec luctus nulla. Curabitur ac dui vel orci fermentum porttitor.</p>
-          <p class="subtext">Honest ingredients. Real flavors.</p>
         </div>
         <div class="hero-image">
           <img src="/Hotel-Green-Garden/assets/image/restaurant4.jpg" alt="" >
@@ -20,12 +19,16 @@
       </div>
     </section>
 
-    <section class="menu-restarant">
-      <h2>Menu</h2>
-      <div class="menu1">
-        <img src="/Hotel-Green-Garden/assets/image/restaurant3.jpg" alt=""style="max-width: 245px; border-radius: 10px;>
+    <section class="menu-box">
+      <div class="menu-restaurant">
+          <h2>Menu</h2>
+        <div class="menu1">
+          <img src="/Hotel-Green-Garden/assets/image/restaurant3.jpg" alt=""style="max-width: 245px; border-radius: 10px;">
+        </div>
       </div>
     </section>
+
+
 
     <!-- Our Team -->
     <section class="team">
