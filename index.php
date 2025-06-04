@@ -11,7 +11,6 @@
  <?php include('includes/header.php'); ?>
 
 
-
 <body>
   <section class="accommodation">
     <div class="accommodation-text">
@@ -64,10 +63,11 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
       </div>
     </div>
   </section>
-</body>
-
-
-<?php include('includes/footer.php'); ?>
 
 <script src="assets/js/index.js"></script>
+</body>
+
+<!--Footer-->
+<?php include('includes/footer.php'); ?>
+
 </html>
