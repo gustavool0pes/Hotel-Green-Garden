@@ -22,7 +22,7 @@ Hospede-se conosco e desfrute de uma experiência única!</p>
         <a href="">Ver mais</a>
       </div>
     </div>
-    <img src="assets/img/greengarden.jpg" alt="Apartamento de Luxo">
+    <img src="/Hotel-Green-Garden/assets/image/greengarden.jpg" alt="Apartamento de Luxo">
   </section>
 
     <div class="greengarden-text">
@@ -30,7 +30,7 @@ Hospede-se conosco e desfrute de uma experiência única!</p>
     </div>
 
   <section class="accommodation">
-    <img src="assets/img/cafe.png" alt="Apartamento Familiar">
+    <img src="/Hotel-Green-Garden/assets/image/cafe.png" alt="Apartamento Familiar">
     <div class="accommodation-text">
       <h2 style="text-align: center;">Café Colonial Green Garden</h2>
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única.
@@ -50,11 +50,11 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
         <a href="">Ver mais</a>
       </div>
     </div>
-    <img src="assets/img/restaurante.webp" alt="Apartamento Familiar">
+    <img src="/Hotel-Green-Garden/assets/image/restaurante.webp" alt="Apartamento Familiar">
   </section>
 
   <section class="accommodation">
-    <img src="assets/img/room12.jpg" alt="Suíte Master">
+    <img src="/Hotel-Green-Garden/assets/image/room12.jpg" alt="Suíte Master">
     <div class="accommodation-text">
       <h2 style="text-align: center;">Suíte Master</h2>
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única. Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>

@@ -71,9 +71,13 @@ p {
     content: "";
   position: absolute;
   inset: 0;
-  background: url('/Hotel-Green-Garden/assets/image/bar4.jpg') no-repeat center center/cover;
+  background: url('/Hotel-Green-Garden/assets/image/restaurant-menu1.jpg') no-repeat center center/cover;
   opacity: 0.7;  
   z-index: -1;
+}
+
+.menu-restaurant p{
+  text-align: center;
 }
 
 
@@ -110,19 +114,14 @@ p {
   justify-content: center;
 }
 
-.photo-light {
-  background-color: #e0e0e0;
-}
 
-.photo-dark {
-  background-color: #444;
-}
 
 /* Awards Section */
 .awards {
-  background-color: #d1d1d1;
+  background-color: #111111;;;
   text-align: center;
   padding: 60px 20px;
+  color: #fff;
 }
 
 .award-icons {
@@ -138,8 +137,9 @@ p {
 }
 
 .icon p {
-  font-size: 0.9rem;
+  font-size: 1.9rem;
   margin-top: 5px;
+  text-align: center;
 }
 
 /* Contact Section */

@@ -1,6 +1,6 @@
 body{
 	margin:0;
-	color:#6a6f8c;
+	color:#fff;
 	background:#c8c8c8;
 	font:600 16px/18px 'Open Sans',sans-serif;
 }
@@ -12,7 +12,6 @@ body{
 	min-height:670px;
 	position:relative;
 	background-color: #333;
-	
     border-radius: 20px;
 }
 .login-snip{
@@ -23,16 +22,24 @@ body{
 	
 }
 .login-snip .login,
-.login-snip .sign-up-form{
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	position:absolute;
-	transform:rotateY(180deg);
-	backface-visibility:hidden;
-	transition:all .4s linear;
+.login-snip .sign-up-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  display: none;
 }
+
+.login-snip .sign-in:checked ~ .login-space .login {
+  display: block;
+}
+
+.login-snip .sign-up:checked ~ .login-space .sign-up-form {
+  display: block;
+}
+
 .login-snip .sign-in,
 .login-snip .sign-up,
 .login-space .group .check{
@@ -51,10 +58,20 @@ body{
 	display:inline-block;
 	border-bottom:2px solid transparent;
 }
+.tab {
+  font-size: 22px;
+  margin: 0 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
 .login-snip .sign-in:checked + .tab,
 .login-snip .sign-up:checked + .tab{
 	color:#fff;
-	border-color:#1161ee;
+	border-color:#e9eaec;
+	border-bottom: 2px solid #ffffff;
 }
 label{
     margin-left: 20px;
