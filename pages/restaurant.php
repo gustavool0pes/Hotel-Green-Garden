@@ -27,8 +27,8 @@
       <p>Menu “Fusão Contemporânea”</p><br>
     </div>
     <div class="btn">
-        <a href="menu-restaurant.php">Ver mais</a>
-      </div>
+      <a href="menu-restaurant.php">Ver mais</a>
+    </div>
   </section>
 
   <section class="team">
@@ -50,9 +50,9 @@
       </div>
       <div class="card">
         <div class="photo photo-light">
-          <img src="/Hotel-Green-Garden/assets/image/chef marsia.jpg" alt="" style="max-width: 245px; border-radius: 10px;">
+          <img src="/Hotel-Green-Garden/assets/image/chefe_marsia.png" alt="" style="max-width: 245px; border-radius: 10px;">
         </div>
-        <h3>Chef Rafael Cruz</h3>
+        <h3>Chef Rafaela Cruz</h3>
         <p>Combining Latin flair with Japanese precision.</p>
       </div>
     </div>
@@ -64,11 +64,11 @@
       <div class="icon">🏆<p>Best Sushi</p>
       </div>
       <div class="icon">
-        <img class="icon" src="\Hotel-Green-Garden\assets\image\michelin.png" style="max-width: 80px;" alt=""><br>
+        <img class="icon" src="\Hotel-Green-Garden\assets\image\michelin.png" style="max-width: 80px;" alt="">
         <p>Michelin</p>
       </div>
       <div class="icon">
-        <img class="icon" src="\Hotel-Green-Garden\assets\image\sparkling.png" style="max-width: 35px;" alt=""><br>
+        <img class="icon" src="\Hotel-Green-Garden\assets\image\sparklings.png" style="max-width: 35px;" alt="">
         <p>Chef’s Award</p>
       </div>
     </div>
@@ -78,23 +78,29 @@
   <section class="contact">
     <div class="contact-grid">
       <div>
-        <h4>Visit us</h4>
-        <p>123 Tokyo Street<br>Tokyo, Japan</p>
+        <h4>Visite a gente!</h4>
+        <p>123 Copacabana<br>Rio de Janeiro, Brazil.</p>
       </div>
       <div>
-        <h4>Hours</h4>
-        <p>
-          Mon–Thu: 12pm – 10pm<br>
-          Fri–Sat: 12pm – 11pm<br>
-          Sun: Closed
-        </p>
+        <h4>Horas</h4>
+        <p>Terça–Quinta: 11:00 – 00:00</p>
+        <p>Sexta–Domingo: 11:00 – 02:00</p>
+        <p style="text-align: center;">Segunda: Fechado</p>
+
       </div>
       <div>
-        <h4>Contact</h4>
-        <p>info@restaurant.com<br>+81 123 456 789</p>
+        <h4>Contato</h4>
+        <p>info@restaurant.com<br>+21 91234-5678</p>
       </div>
     </div>
-    <p class="social">Stay in touch. Follow us on Facebook and Instagram.</p>
+    <div class="restaurant-social">
+      <h2>Siga nossas redes sociais para mais informações.</h2>
+      <div class="social-icon">
+        <img src="/Hotel-Green-Garden/assets/image/instagram.png" alt="Instagram" style="max-width: 35px; cursor: pointer;">
+        <img src="/Hotel-Green-Garden/assets/image/facebook.png" alt="Facebook" style="max-width: 35px; cursor: pointer;">
+      </div>
+    </div>
+
   </section>
 </main>
 

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/index.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/login.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/restaurant.css">
+    <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/menu-restaurant.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/header.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/footer.css">
 </head>
