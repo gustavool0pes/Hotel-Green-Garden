@@ -1,12 +1,7 @@
+<!-- Header -->
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php'); ?>
 
 <main>
-    <section class="top-section">
-        <h1>Menu</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, eveniet deleniti error consequatur fuga officiis? Vero dicta, 
-           iusto recusandae earum, porro reprehenderit exercitationem iste quo architecto quisquam nisi aliquid dolorem?</p>
-    </section>
-
     <!--Menu Kaiseki Moderno-->
     <section class="“kaiseki">
         <div class="menu-box-img1">
@@ -14,6 +9,7 @@
             <p>Uma viagem sensorial pela tradição japonesa com técnicas contemporâneas.</p>
         </div>
         <div class="menu-box1">
+            <img src="/Hotel-Green-Garden/assets/image/entrada1.png" alt="">
             <h5>Entrada</h5>
             <p>Tataki de Wagyu com espuma de yuzu e crocante de arroz selvagem.</p>
         </div>
@@ -23,7 +19,7 @@
         </div>
         <div class="menu-box1">
             <h5>Sobremesa</h5>
-            <p>Mochi artesanal de chá verde com sorvete de shiso roxo e praliné de gergelim preto.</p>
+            <p style="margin-bottom: 40px;">Mochi artesanal de chá verde com sorvete de shiso roxo e praliné de gergelim preto.</p>
         </div>
     </section>
 
@@ -43,7 +39,7 @@
         </div>
         <div class="menu-box1">
             <h5>Sobremesa</h5>
-            <p>Tartelette de lichia e sake, com creme de baunilha japonesa (kuro-madonna).</p>
+            <p style="margin-bottom: 40px;">Tartelette de lichia e sake, com creme de baunilha japonesa (kuro-madonna).</p>
         </div>
     </section>
 
@@ -68,4 +64,6 @@
     </section>
 </main>
 
+
+<!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/footer.php'); ?>

@@ -1,12 +1,11 @@
-.top-section, h1{
+.top-section > h1{
     text-align: center;
     font-size: 1.5rem;
     margin-top: 25px;
 }
-.top-section, p{
+.top-section > p{
     font-size: 1.1rem;
     text-align: center;
-    margin: 20 20 20 20;
 }
 
 .menu-box-img1{
@@ -64,19 +63,42 @@
   z-index: -1;
 }
 .menu-box-img3, .menu-box-img2, .menu-box-img1{
-    margin-top: 40px;
     margin-bottom: 35px;
 }
 
+.menu-box-img1 > p{
+  text-align: center;
+  margin-top: 15px;
+}
 
+.menu-box-img2 > p{
+  text-align: center;
+  margin-top: 15px;
+}
 
-/*ARRUMAR Problema no footer*/
-.menu-box1, p, h5{
+.menu-box-img3 > p{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.menu-box1 > img{
+  display: flex;
+  margin: 0 auto;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.menu-box1 > p, h5{
   text-align: center;
 }
 
-.menu-box1, h5{
+.menu-box1 > h5{
     font-size: 1.3rem;
     margin-bottom: 10px;
     margin-top: 30px;
+}
+
+.contemporanea{
+  margin-bottom: 55px;
 }
