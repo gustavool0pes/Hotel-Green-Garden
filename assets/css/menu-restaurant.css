@@ -62,23 +62,21 @@
   opacity: 0.8;  
   z-index: -1;
 }
-.menu-box-img3, .menu-box-img2, .menu-box-img1{
-    margin-bottom: 35px;
-}
+
 
 .menu-box-img1 > p{
   text-align: center;
-  margin-top: 15px;
+
 }
 
 .menu-box-img2 > p{
   text-align: center;
-  margin-top: 15px;
+
 }
 
 .menu-box-img3 > p{
   text-align: center;
-  margin-top: 15px;
+
 }
 
 .menu-box1 > img{
@@ -101,4 +99,28 @@
 
 .contemporanea{
   margin-bottom: 55px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.menu-box1 {
+  max-width: 300px;
+  flex: 1 1 250px;
+  background: #d1d1d1;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu-box1 img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
 }

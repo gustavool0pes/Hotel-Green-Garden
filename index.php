@@ -19,7 +19,7 @@
 Contamos com uma infraestrutura sofisticada, incluindo 10 apartamentos de Luxo, 15 de Luxo Especial, 20 Suítes Especiais e 20 Suítes Master, todas equipadas para garantir uma estadia inesquecível. Além disso, oferecemos serviços completos de quartos, lavanderia, restaurante e frigobar para maior comodidade.
 Hospede-se conosco e desfrute de uma experiência única!</p>
       <div class="btn">
-        <a href="">Ver mais</a>
+        <a href="\Hotel-Green-Garden\pages\hotel.php">Ver mais</a>
       </div>
     </div>
     <img src="/Hotel-Green-Garden/assets/image/greengarden.jpg" alt="Apartamento de Luxo">
@@ -35,9 +35,6 @@ Hospede-se conosco e desfrute de uma experiência única!</p>
       <h2 style="text-align: center;">Café Colonial Green Garden</h2>
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única.
 Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>
-      <div class="btn">
-        <a href="">Ver mais</a>
-      </div>
     </div>
   </section>
 
@@ -47,7 +44,7 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única.
 Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>
       <div class="btn">
-        <a href="">Ver mais</a>
+        <a href="\Hotel-Green-Garden\pages\restaurant.php">Ver mais</a>
       </div>
     </div>
     <img src="/Hotel-Green-Garden/assets/image/restaurante.webp" alt="Apartamento Familiar">
@@ -59,7 +56,7 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
       <h2 style="text-align: center;">Suíte Master</h2>
       <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única. Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>
       <div class="btn" >
-        <a href="">Ver mais</a>
+        <a href="\Hotel-Green-Garden\pages\suite.php">Ver mais</a>
       </div>
     </div>
   </section>

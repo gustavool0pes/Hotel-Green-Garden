@@ -5,13 +5,15 @@
 <main>
   <!-- Hero Section -->
   <section class="hero">
-    <div class="tittle" style="text-align: center; font-size: 1.7rem;">
+    <div class="tittle" style="text-align: center; font-size: 1.7rem; margin-top: 45px;">
       <h1>Restaurante Green Garden</h1><br><br>
     </div>
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Keeping it real</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec luctus nulla. Curabitur ac dui vel orci fermentum porttitor.</p>
+        <h1>Uma experiência única gastronômica.</h1>
+        <p>No coração do Hotel Green Garden, nosso restaurante oferece uma fusão entre tradição, inovação e ingredientes da mais alta qualidade. Cada detalhe foi pensado para
+          proporcionar aos nossos clientes uma viagem de sabores autênticos, unindo o melhor da culinária japonesa moderna com toques contemporâneos.
+          Aqui, cada prato é uma celebração da técnica, do frescor e do respeito aos ingredientes, em um ambiente sofisticado e acolhedor.</p>
       </div>
       <div class="hero-image">
         <img src="/Hotel-Green-Garden/assets/image/restaurant4.jpg" alt="">
@@ -39,36 +41,34 @@
           <img src="/Hotel-Green-Garden/assets/image/chefe_hiroshi.png" alt="" style="max-width: 245px; border-radius: 10px;">
         </div>
         <h3>Chef Hiroshi Tanaka</h3>
-        <p>Expert in Japanese culinary arts and traditional sushi preparation.</p>
+        <p>Mestre da culinária japonesa tradicional, especialista em técnicas refinadas e na arte dos sushis clássicos.</p>
       </div>
       <div class="card">
         <div class="photo photo-dark">
           <img src="/Hotel-Green-Garden/assets/image/chefe_miki.png" alt="" style="max-width: 245px; border-radius: 10px;">
         </div>
         <h3>Chef Miki Yamamoto</h3>
-        <p>Renowned for modern twists on classic Japanese dishes.</p>
+        <p>Inovador da gastronomia japonesa, cria releituras modernas com elegância e precisão milimétrica.</p>
       </div>
       <div class="card">
         <div class="photo photo-light">
           <img src="/Hotel-Green-Garden/assets/image/chefe_marsia.png" alt="" style="max-width: 245px; border-radius: 10px;">
         </div>
         <h3>Chef Rafaela Cruz</h3>
-        <p>Combining Latin flair with Japanese precision.</p>
+        <p>Combina o toque vibrante da culinária latina com a delicadeza e a técnica da gastronomia japonesa.</p>
       </div>
     </div>
   </section>
 
   <section class="awards">
-    <h2>Premios</h2>
+    <h2>Prêmios</h2>
     <div class="award-icons">
-      <div class="icon">🏆<p>Best Sushi</p>
-      </div>
       <div class="icon">
-        <img class="icon" src="\Hotel-Green-Garden\assets\image\michelin.png" style="max-width: 80px;" alt="">
+        <img class="icon" src="\Hotel-Green-Garden\assets\image\michelin.png" style="max-width: 80px; margin-top: 25px; margin-bottom: 10px;" alt=""><br>
         <p>Michelin</p>
       </div>
       <div class="icon">
-        <img class="icon" src="\Hotel-Green-Garden\assets\image\sparklings.png" style="max-width: 35px;" alt="">
+        <img class="icon" src="\Hotel-Green-Garden\assets\image\chefsaward.png" style="max-width: 90px;" alt="">
         <p>Chef’s Award</p>
       </div>
     </div>

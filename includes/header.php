@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -17,35 +21,34 @@
 <body>
   <!-- header -->
   <header>
-    <img src="/Hotel-Green-Garden/assets/image/user.png" style="max-width: 20px; cursor: pointer;" alt="">
-    <h3 style="color: aliceblue; text-align: center; display: flex; margin: 0 auto;">Green Garden</h3>
-    <!-- MENU OVERLAY -->
-    <div class="overlay overlay-slide-left" id="overlay">
-      <!-- MENU ITEMS -->
-      <nav>
-        <ul>
-          <li id="nav-1" class="slide-out-1 center">
-            <a href="/Hotel-Green-Garden/index.php" class="center">Home</a>
-          </li>
-          <li id="nav-2" class="slide-out-2 center">
-            <a href="/Hotel-Green-Garden/index.php" id="sobre" class="center">Sobre</a>
-          </li>
-          <li id="nav-3" class="slide-out-3 center">
-            <a href="/Hotel-Green-Garden/pages/suite.php" class="center">Suítes</a>
-          </li>
-          <li id="nav-4" class="slide-out-4 center">
-            <a href="/Hotel-Green-Garden/pages/restaurant.php" class="center">Restaurante</a>
-          </li>
-          <li id="nav-5" class="slide-out-5 center">
-            <a href="contato.html" class="center">Contato</a>
-          </li>
-        </ul>
+    <div class="menu_box">
+      <div class="text-menu">
+        <p>Hotel Green Garden</p>
+      </div>
+      <input type="checkbox" id="navcheck" role="button" title="menu">
+      <label for="navcheck" aria-hidden="true" title="menu">
+        <span class="burger">
+          <span class="bar">
+            <span class="visuallyhidden">Menu</span>
+          </span>
+        </span>
+      </label>
+      <nav id="menu">
+        <?php if (isset($_SESSION['usuario_id'])): ?>
+          <a href="/Hotel-Green-Garden/index.php">Início</a>
+          <a href="/Hotel-Green-Garden/pages/suite.php">Suítes</a>
+          <a href="/Hotel-Green-Garden/pages/reservation.php">Reservas</a>
+          <a href="/Hotel-Green-Garden/pages/restaurant.php">Restaurante</a>
+          <a href="/Hotel-Green-Garden/pages/perfil.php">Perfil</a>
+          <a href="/Hotel-Green-Garden/pages/logout.php">Sair</a>
+        <?php else: ?>
+          <a href="/Hotel-Green-Garden/index.php">Início</a>
+          <a href="/Hotel-Green-Garden/pages/suite.php">Suítes</a>
+          <a href="/Hotel-Green-Garden/pages/reservation.php">Reservas</a>
+          <a href="/Hotel-Green-Garden/pages/restaurant.php">Restaurante</a>
+          <a href="/Hotel-Green-Garden/pages/login.php">Login</a>
+        <?php endif; ?>
+
       </nav>
-    </div>
-    <!-- HAMBURGER MENU -->
-    <div class="hamburger-menu" id="hamburger-menu">
-      <div class="menu-bar1"></div>
-      <div class="menu-bar2"></div>
-      <div class="menu-bar3"></div>
     </div>
   </header>
