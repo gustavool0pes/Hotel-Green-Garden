@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="hr"></div>
             <div class="foot">
-              <a href="#">Esqueceu a senha?</a>
+              <a href="\Hotel-Green-Garden\forgot_password.php">Esqueceu a senha?</a>
             </div>
           </form>
         </div>

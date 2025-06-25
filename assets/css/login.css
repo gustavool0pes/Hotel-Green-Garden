@@ -173,6 +173,8 @@ a{color:inherit;text-decoration:none}
     justify-content: center;
     margin: 0 auto;
     font-size: 0.8em;
+	color: #fff;
+	text-decoration: none;
 }
 .card{
 	width: 500px;

@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php'); ?>
+<?php
+session_start();
+include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
+?>
 
 <main>
     <!--Menu Kaiseki Moderno-->

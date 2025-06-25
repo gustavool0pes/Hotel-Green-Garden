@@ -1,9 +1,12 @@
 <!-- Header -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php'); ?>
+<?php
+session_start();
+include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
+?>
 
 <!-- Conteúdo Principal -->
 <main>
-  <!-- Hero Section -->
+  
   <section class="hero">
     <div class="tittle" style="text-align: center; font-size: 1.7rem; margin-top: 45px;">
       <h1>Restaurante Green Garden</h1><br><br>

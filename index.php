@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Green Garden</title>
-  <link rel="stylesheet" href="assets/css/index.css">
-</head>
-
 <!-- Header -->
- <?php include('includes/header.php'); ?>
+<?php
+session_start();
+include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
+?>
 
 
-<body>
   <section class="accommodation">
-    <div class="accommodation-text">
+    <div class="accommodation-text" style="margin-top: 50px;">
       <h2 style="text-align: center;">Green Garden</h2>
       <p>A Green Garden é uma rede de hotéis com sede em Gramado e unidades em Canoas, Santa Maria e Pelotas. Nosso compromisso é oferecer conforto, qualidade e um atendimento acolhedor para nossos hóspedes.
 Contamos com uma infraestrutura sofisticada, incluindo 10 apartamentos de Luxo, 15 de Luxo Especial, 20 Suítes Especiais e 20 Suítes Master, todas equipadas para garantir uma estadia inesquecível. Além disso, oferecemos serviços completos de quartos, lavanderia, restaurante e frigobar para maior comodidade.
@@ -22,7 +15,7 @@ Hospede-se conosco e desfrute de uma experiência única!</p>
         <a href="\Hotel-Green-Garden\pages\hotel.php">Ver mais</a>
       </div>
     </div>
-    <img src="/Hotel-Green-Garden/assets/image/greengarden.jpg" alt="Apartamento de Luxo">
+    <img style="margin-top: 50px;" src="/Hotel-Green-Garden/assets/image/greengarden.jpg" alt="Apartamento de Luxo">
   </section>
 
     <div class="greengarden-text">
@@ -67,4 +60,4 @@ Mais do que uma refeição, nosso café colonial é um convite para desfrutar do
 <!--Footer-->
 <?php include('includes/footer.php'); ?>
 
-</html>
+
