@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/suite.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/header.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/reservation.css">
+    <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/hotel-about.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/forgot_password.css">
   <link rel="stylesheet" href="/Hotel-Green-Garden/assets/css/footer.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">

@@ -10,8 +10,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
     <section class="accommodation-suite">
         <div class="accommodation-text">
             <h2 style="text-align: center;">Suíte Classic</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis veritatis libero
-                inventore delectus dolorem exercitationem quia, sunt atque fugiat culpa quas fuga porro quae reiciendis. Iusto rerum sed repellendus?</p>
+            <p>Desfrute do conforto e da elegância atemporal da nossa Suíte Clássica.
+                Projetada para oferecer uma estadia acolhedora e funcional, esta suíte combina um design sofisticado com todas as comodidades modernas necessárias para o seu descanso.
+                Ideal para viagens de negócios ou lazer, a Suíte Clássica é o refúgio perfeito para relaxar após um dia explorando a cidade ou em compromissos importantes.
+                Viva uma experiência de hospedagem que valoriza a tradição e o bem-estar.</p>
             <div class="btn">
                 <a href="\Hotel-Green-Garden\pages\reservation.php">Faça sua reserva</a>
             </div>
@@ -58,15 +60,16 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
         </div>
     </section>
 
-    <div class="greengarden-text">
-        <p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint pariatur corrupti suscipit cumque error quibusdam. Perspiciatis, minima fuga at sit, inventore reiciendis iste consectetur laborum voluptatum beatae id facere.</p>
+    <div class="greengarden-text" style="background-color: #000; color: #fff;">
+        <p style="text-align: center;">Onde o conforto encontra a elegância: cada detalhe é pensado para proporcionar uma experiência de hospedagem excepcional e memorável.</p>
     </div>
 
     <section class="accommodation-suite">
         <div class="accommodation-text">
             <h2 style="text-align: center;">Suíte Luxo Especial</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis veritatis libero
-                inventore delectus dolorem exercitationem quia, sunt atque fugiat culpa quas fuga porro quae reiciendis. Iusto rerum sed repellendus?</p>
+            <p>Experimente o auge do luxo e da exclusividade em nossa Suite Luxo Especial. Com um design arrojado e acabamentos de alta qualidade, esta suíte oferece um ambiente
+                de requinte e privacidade. Relaxe em uma banheira espaçosa, aproveite a vista privilegiada e desfrute de serviços personalizados. Criada para proporcionar
+                uma experiência inesquecível, a Suite Luxo Especial é perfeita para ocasiões únicas, celebrações ou para quem busca o máximo em conforto e sofisticação.</p>
             <div class="btn">
                 <a href="\Hotel-Green-Garden\pages\reservation.php">Faça sua reserva</a>
             </div>

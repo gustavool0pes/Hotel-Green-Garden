@@ -1,0 +1,137 @@
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f7f7; 
+}
+
+body {
+  padding-top: 60px; 
+}
+
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    
+    .accommodation-text, .tittle, p{
+      text-align: center;
+      text-align: justify;
+    }
+
+
+.accommodation-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.accommodation-row .accommodation-text {
+    max-width: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.accommodation-row img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-top: 50px;
+}
+
+.accommodation-row img:hover {
+    transform: scale(1.05);
+}
+
+
+.accommodation-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.accommodation-about h2 {
+    margin: 0.5rem 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.accommodation-about p {
+    max-width: 800px;
+    text-align: center;
+    margin: 0.5rem auto 1rem auto;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.img-container img:hover {
+    transform: scale(1.05);
+}
+
+
+
+    .accommodation-about h2 {
+      margin: 0.5rem 0;
+      font-size: 20px;
+      text-align: center;
+    }
+
+.btn a {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+
+
+.greengarden-text {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+
