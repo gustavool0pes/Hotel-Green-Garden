@@ -104,9 +104,12 @@ p {
 }
 
 .card {
-  width: 320px;
-
+    width: 320px;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent;
 }
+
 
 .card, h3{
   text-align: center;
