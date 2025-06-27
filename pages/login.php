@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="group">
               <input id="check" type="checkbox" class="check" checked>
-              <label for="check"><span class="icon"></span> Lembrar de mim</label>
+              <label for="check" style="color: #fff;"><span class="icon"></span> Lembrar de mim</label>
             </div>
             <div class="group">
               <input type="submit" class="button" value="Logar" name="login">
@@ -120,9 +120,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <input type="submit" class="button" value="Cadastrar" name="cadastro">
             </div>
             <div class="hr"></div>
-            <div class="foot">
-              <a href="#">Já possui conta?</a>
-            </div>
           </form>
         </div>
 

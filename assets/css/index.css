@@ -26,6 +26,9 @@ body {
     .accommodation-text, .tittle, p{
       text-align: center;
       text-align: justify;
+      margin-left: 5%;
+      margin-right: 5%;
+      
     }
 
     .menu-icon {
@@ -43,6 +46,7 @@ body {
       align-items: center;
       padding: 3rem 1rem;
       border-bottom: 1px solid #ddd;
+
     }
 
     .accommodation img {
@@ -50,6 +54,8 @@ body {
       max-width: 600px;
       border-radius: 8px;
       margin-bottom: 1rem;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .accommodation h2 {

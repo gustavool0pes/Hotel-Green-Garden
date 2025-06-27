@@ -41,14 +41,15 @@ p {
   text-align: center;
 }
 
-.hero-text h1{
+.hero-text > h1{
   margin-bottom: 15px;
+  font-size: 25px;
 
 }
 
-.hero-image {
+.hero-image img {
   flex: 1;
-  height: 250px;
+  height: 300px;
   display: flex;
   border-radius: 10px;
   justify-content: center;

@@ -36,17 +36,24 @@ footer {
 
 .footer-block p{
   margin-bottom: 5px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .img-footer {
   display: flex;
   gap: 15px;
+
+  justify-items: center;
+  justify-content: center;
 }
 
 .img-footer img {
   max-width: 30px;
   cursor: pointer;
 }
+
+
 
 .map iframe {
   max-width: 950px;
