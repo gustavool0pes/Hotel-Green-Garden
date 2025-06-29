@@ -68,11 +68,11 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
     <div class="award-icons">
       <div class="icon">
         <img class="icon" src="\Hotel-Green-Garden\assets\image\michelin.png" style="max-width: 80px; margin-top: 25px; margin-bottom: 10px;" alt=""><br>
-        <p>Michelin</p>
+        <p style=" font-size: 1.3rem;">Michelin</p>
       </div>
       <div class="icon">
         <img class="icon" src="\Hotel-Green-Garden\assets\image\chefsaward.png" style="max-width: 90px;" alt="">
-        <p>Chef’s Award</p>
+        <p style=" font-size: 1.3rem; white-space: nowrap; ">Chef’s Award</p>
       </div>
     </div>
   </section>
@@ -84,10 +84,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
         <h4>Visite a gente!</h4>
         <p>123 Copacabana<br>Rio de Janeiro, Brazil.</p>
       </div>
-      <div>
+      <div class="contact-hours">
         <h4>Horas</h4>
-        <p>Terça–Quinta: 11:00 – 00:00</p>
-        <p>Sexta–Domingo: 11:00 – 02:00</p>
+        <p style="white-space: nowrap;">Terça–Quinta: 11:00 – 00:00</p>
+        <p style="white-space: nowrap;">Sexta–Domingo: 11:00 – 02:00</p>
         <p style="text-align: center;">Segunda: Fechado</p>
 
       </div>

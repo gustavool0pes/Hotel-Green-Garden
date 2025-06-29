@@ -1,34 +1,26 @@
-
-/* Caixa do Login */
-.login-box {
+/* Caixa do Formulário de Cadastro */
+.sign-up-form {
     background-color: #000;
     padding: 2rem;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-.loging-box > h1 {
-    color: #ffffff;
-    margin-bottom: 1.5rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-/* Grupos de inputs */
+/* Grupos dos campos */
 .group {
     margin-bottom: 1.5rem;
     text-align: left;
 }
 
 /* Label dos campos */
-.label {
+ .label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #ffff;
+    color: #ffffff;
     margin-left: 15%;
 }
 
@@ -40,20 +32,11 @@
     border: 1px solid #ccc;
     font-size: 1rem;
     transition: border 0.3s;
-    display: flex;
-    margin: 0 auto;
 }
 
-
-
-/* Checkbox */
-.check {
-    margin-left: 15%;
-}
-
-.group label[for="check"] {
-    font-size: 1rem;
-    color: #333;
+.input:focus {
+    border-color: #4CAF50;
+    outline: none;
 }
 
 /* Botão de login */
@@ -83,11 +66,12 @@
 }
 
 /* Link do "Esqueceu a senha?" */
-.foot a {
-    color: #fff;
+.foot, a, p {
+
     text-decoration: none;
     font-size: 1.2rem;
 }
+
 
 
 /* Responsividade simples */
@@ -96,3 +80,4 @@
         padding: 1.5rem;
     }
 }
+

@@ -7,8 +7,8 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
 <main>
 
     <!-- Suite Classic -->
-    <section class="accommodation-suite">
-        <div class="accommodation-text">
+    <section class="accommodation-suite" style="margin-top: 50px;">
+        <div class="accommodation-text" style="margin-top: 70px;">
             <h2 style="text-align: center;">Suíte Classic</h2>
             <p>Desfrute do conforto e da elegância atemporal da nossa Suíte Clássica.
                 Projetada para oferecer uma estadia acolhedora e funcional, esta suíte combina um design sofisticado com todas as comodidades modernas necessárias para o seu descanso.
