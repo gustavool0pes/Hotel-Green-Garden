@@ -22,6 +22,9 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
         <img src="/Hotel-Green-Garden/assets/image/restaurant4.jpg" alt="">
       </div>
     </div>
+    <div class="btn" style="display: flex; margin: 0 auto; text-align: center; margin-top: 20px;">
+      <a href="reservation-restaurant.php">Faça sua Reserva</a>
+    </div>
   </section>
 
   <section class="menu-box">

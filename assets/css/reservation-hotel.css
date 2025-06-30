@@ -1,0 +1,51 @@
+.hero-reservation {
+  position: relative;
+  background-image: url('/Hotel-Green-Garden/assets/image/reservation.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-reservation .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation-content {
+  text-align: center;
+  max-width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 10px;
+}
+
+.reservation-form input,
+.reservation-form button,
+.reservation-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.reservation-form button {
+  background-color: #d4af37;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #b7950b;
+}

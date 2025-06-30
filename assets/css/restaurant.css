@@ -59,6 +59,8 @@ p {
   border-radius: 10px;
 }
 
+
+
 .menu-box{
   color: #fff;
   position: relative;
@@ -167,6 +169,10 @@ p {
   padding: 40px 20px;
   font-size: 0.6rem;
   text-align: center;
+}
+
+.contact p {
+  font-size: 0.8rem;
 }
 
 .contact-grid .contact-hours p {

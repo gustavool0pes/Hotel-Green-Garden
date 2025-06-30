@@ -1,13 +1,63 @@
-<!-- Header -->
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/conection.php');
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['cadastro'])) {
+
+    $nome = trim($_POST['nome']);
+    $email = trim($_POST['email']);
+    $telefone = trim($_POST['telefone']);
+    $senha = $_POST['senha'];
+    $senha2 = $_POST['senha2'];
+
+    if ($senha !== $senha2) {
+        $erro = "As senhas não conferem.";
+    } else {
+        try {
+            // Verifica se o e-mail já está cadastrado
+            $stmt = $pdo->prepare("SELECT id FROM usuarios WHERE email = :email");
+            $stmt->bindParam(':email', $email);
+            $stmt->execute();
+
+            if ($stmt->rowCount() > 0) {
+                $erro = "Este e-mail já está cadastrado.";
+            } else {
+                $senhaHash = password_hash($senha, PASSWORD_DEFAULT);
+
+                $stmt = $pdo->prepare("INSERT INTO usuarios (nome, email, senha, telefone) VALUES (:nome, :email, :senha, :telefone)");
+                $stmt->bindParam(':nome', $nome);
+                $stmt->bindParam(':email', $email);
+                $stmt->bindParam(':senha', $senhaHash);
+                $stmt->bindParam(':telefone', $telefone);
+
+                if ($stmt->execute()) {
+                    header("Location: login.php");
+                    exit();
+                } else {
+                    $erro = "Erro ao cadastrar usuário.";
+                }
+            }
+        } catch (PDOException $e) {
+            $erro = "Erro no banco de dados: " . $e->getMessage();
+        }
+    }
+}
 ?>
+<!-- Footer -->
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php'); ?>
+
+
 
 <main style="min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 2rem 1rem;">
 
     <!-- CADASTRO -->
-    <div class="login-box" style="background-color: #000;">
+    <div class="login-box" style="background-color: #000; margin-top: 80px; margin-bottom: 80px;">
+        <?php if (isset($erro)) : ?>
+            <div style="color: red; text-align: center; margin-bottom: 10px; margin-top: 100px;">
+                <?php echo $erro; ?>
+            </div>
+        <?php endif; ?>
+
         <form action="cadastro.php" method="POST">
             <h1 style="color: #fff;">Cadastro</h1>
             <br>
@@ -36,7 +86,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
             </div>
             <div class="hr"></div>
             <div class="foot">
-                <p style="color: #fff; font-size: 1.2rem; text-align: center;" >Já possui conta?</p>
+                <p style="color: #fff; font-size: 1.2rem; text-align: center;">Já possui conta?</p>
                 <a href="\Hotel-Green-Garden\pages\login.php">Clique aqui!</a>
 
             </div>

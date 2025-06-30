@@ -9,13 +9,13 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
     <!-- Suite Classic -->
     <section class="accommodation-suite" style="margin-top: 50px;">
         <div class="accommodation-text" style="margin-top: 70px;">
-            <h2 style="text-align: center;">Suíte Classic</h2>
+            <h2 style="text-align: center;">Suite Classic</h2>
             <p>Desfrute do conforto e da elegância atemporal da nossa Suíte Clássica.
                 Projetada para oferecer uma estadia acolhedora e funcional, esta suíte combina um design sofisticado com todas as comodidades modernas necessárias para o seu descanso.
                 Ideal para viagens de negócios ou lazer, a Suíte Clássica é o refúgio perfeito para relaxar após um dia explorando a cidade ou em compromissos importantes.
                 Viva uma experiência de hospedagem que valoriza a tradição e o bem-estar.</p>
             <div class="btn">
-                <a href="\Hotel-Green-Garden\pages\reservation.php">Faça sua reserva</a>
+                <a href="\Hotel-Green-Garden\pages\reservation-hotel.php">Faça sua reserva</a>
             </div>
         </div>
         <div class="img-suite" style="margin-top: 50px;">
@@ -66,12 +66,12 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
 
     <section class="accommodation-suite">
         <div class="accommodation-text">
-            <h2 style="text-align: center;">Suíte Luxo Especial</h2>
+            <h2 style="text-align: center;">Suite Master</h2>
             <p>Experimente o auge do luxo e da exclusividade em nossa Suite Luxo Especial. Com um design arrojado e acabamentos de alta qualidade, esta suíte oferece um ambiente
                 de requinte e privacidade. Relaxe em uma banheira espaçosa, aproveite a vista privilegiada e desfrute de serviços personalizados. Criada para proporcionar
                 uma experiência inesquecível, a Suite Luxo Especial é perfeita para ocasiões únicas, celebrações ou para quem busca o máximo em conforto e sofisticação.</p>
             <div class="btn">
-                <a href="\Hotel-Green-Garden\pages\reservation.php">Faça sua reserva</a>
+                <a href="\Hotel-Green-Garden\pages\reservation-hotel.php">Faça sua reserva</a>
             </div>
         </div>
         <div class="img-suite">

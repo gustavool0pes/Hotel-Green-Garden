@@ -28,7 +28,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
     <h2 style="text-align: center;">Suíte Master</h2>
     <p>Em todos os hotéis da Green Garden, cada manhã começa de forma especial com um café colonial gratuito. Oferecemos uma seleção deliciosa de pães fresquinhos, bolos caseiros, tortas, frios, frutas da estação e bebidas quentes, tudo preparado com carinho para garantir uma experiência única. Mais do que uma refeição, nosso café colonial é um convite para desfrutar do melhor da gastronomia local com conforto e qualidade. Hospede-se conosco e aproveite esse momento especial todos os dias!</p>
     <div class="btn">
-      <a href="\Hotel-Green-Garden\pages\suite.php">Ver mais</a>
+      <a href="\Hotel-Green-Garden\pages\suite.php">Faça sua reserva</a>
     </div>
   </div>
 </section>
