@@ -47,7 +47,6 @@ $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
 <!-- Header -->
 <?php
-session_start();
 include($_SERVER['DOCUMENT_ROOT'] . '/Hotel-Green-Garden/includes/header.php');
 ?>
 

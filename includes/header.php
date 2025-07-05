@@ -39,7 +39,7 @@
         <?php if (isset($_SESSION['usuario_id'])): ?>
           <a href="/Hotel-Green-Garden/index.php">Início</a>
           <a href="/Hotel-Green-Garden/pages/suite.php">Suítes</a>
-          <a href="/Hotel-Green-Garden/pages/reservation.php">Reservas</a>
+          <a href="/Hotel-Green-Garden/pages/reservation-user.php">Reservas</a>
           <a href="/Hotel-Green-Garden/pages/restaurant.php">Restaurante</a>
           <a href="/Hotel-Green-Garden/pages/profile.php">Perfil</a>
           <a href="/Hotel-Green-Garden/includes/logout.php">Sair</a>
@@ -92,7 +92,7 @@
           <?php if (isset($_SESSION['usuario_id'])): ?>
             <a href="/Hotel-Green-Garden/index.php">Início</a>
             <a href="/Hotel-Green-Garden/pages/suite.php">Suítes</a>
-            <a href="/Hotel-Green-Garden/pages/reservation.php">Reservas</a>
+            <a href="/Hotel-Green-Garden/pages/reservation-user.php">Reservas</a>
             <a href="/Hotel-Green-Garden/pages/restaurant.php">Restaurante</a>
             <a href="/Hotel-Green-Garden/pages/profile.php">Perfil</a>
             <a href="/Hotel-Green-Garden/includes/logout.php">Sair</a>
@@ -100,7 +100,6 @@
           <?php else: ?>
             <a href="/Hotel-Green-Garden/index.php">Início</a>
             <a href="/Hotel-Green-Garden/pages/suite.php">Suítes</a>
-            <a href="/Hotel-Green-Garden/pages/reservation.php">Reservas</a>
             <a href="/Hotel-Green-Garden/pages/restaurant.php">Restaurante</a>
             <a href="/Hotel-Green-Garden/pages/login.php">Login</a>
           <?php endif; ?>
